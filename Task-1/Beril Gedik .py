@@ -20,7 +20,7 @@ def calculate_score(hand):
             score += int(card)
 
     # Toplam 21’i geçiyorsa As’ları 11 yerine 1 sayıyoruz  
-       while total >21 and ace_count >0:
+    while total >21 and ace_count >0:
         score -= 10
         ace_count -= 1
 
